@@ -1,0 +1,14 @@
+ext{
+    MOCKITTO = 'org.mockito:mockito-all:1.10.19'
+    JUNIT4 = 'junit:junit:4.11'
+}
+
+project(':') {
+    apply plugin: 'idea'
+    apply plugin: 'java'
+
+    repositories {
+        mavenCentral()
+    }
+}
+
